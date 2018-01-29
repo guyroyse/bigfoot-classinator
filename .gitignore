@@ -1,0 +1,10 @@
+__pycache__
+.cache
+.vscode
+bin
+include
+lib
+pip-selfcheck.json
+*.zip
+.DS_Store
+pyvenv.cfg

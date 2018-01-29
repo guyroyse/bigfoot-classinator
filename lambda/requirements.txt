@@ -1,0 +1,3 @@
+pytest
+nexosisapi
+boto3
