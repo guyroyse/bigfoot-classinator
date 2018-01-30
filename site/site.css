@@ -5,7 +5,7 @@ body {
   color: #111111;
   font: 20px Raleway, sans-serif;
   margin: 60px auto;
-  width: 1080px;
+  width: 1000px;
 }
 
 header {
@@ -45,6 +45,7 @@ aside img {
   border-style: solid;
   border-color: #111111;
   border-width: 1px;
+  float: right;
 }
 
 section {
@@ -77,4 +78,35 @@ footer {
   margin-top: 75px;
   width: 100%;
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+
+  body {
+    width: 100%;
+  }
+
+  aside {
+    display: none;
+  }
+
+  section {
+    width: 94%;
+    padding: 0px 3%;
+    float: none;
+  }
+
+  section textarea {
+    font-size: 20px;
+    width: 100%;
+    height: 175px;
+  }
+
+  section button {
+    font-size: 20px;
+    padding: 10px 40px;
+    width: 100%;
+    margin-top: 25px;
+  }
+
 }
