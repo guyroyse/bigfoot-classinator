@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+  background-color: #ffffff;
+  color: #111111;
+  font: 20px Raleway, sans-serif;
+  margin: 60px auto;
+  width: 1080px;
+}
+
+header {
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+}
+
+header .title {
+  color: #333333;
+  border-bottom-style: none;
+  font-size: 48px;
+  letter-spacing: 8px;
+  margin: 0px;
+  margin-top: 40px;
+}
+
+header .tagline {
+  color: #111111;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 4px;
+}
+
+main {
+  width: 100%;
+  margin-top: 60px;
+  display: inline-block;
+}
+
+aside {
+  width: 400px;
+  float: right;
+}
+
+aside img {
+  border-style: solid;
+  border-color: #111111;
+  border-width: 1px;
+}
+
+section {
+  width: 600px;
+  float: left;
+}
+
+section h1 {
+  margin: 0px;
+}
+
+section p {
+  margin-top: 10px;
+}
+
+section textarea {
+  font-size: 20px;
+  width: 600px;
+  height: 175px;
+}
+
+section button {
+  font-size: 20px;
+  padding: 10px 40px;
+  width: 600px;
+  margin-top: 25px;
+}
+
+footer {
+  margin-top: 75px;
+  width: 100%;
+  text-align: center;
+}
