@@ -8,6 +8,15 @@ body {
   width: 1000px;
 }
 
+a {
+  color: #111111;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 header {
   text-align: center;
   padding: 0px;
