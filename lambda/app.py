@@ -15,10 +15,10 @@ def classinate_bigfoot(event, context):
 
     # invoke the model to make a prediction using the model ID in an environment variable
     model_id = os.environ['BIGFOOT_MODEL_ID']
-    results = client.models.predict(model_id, features)
+    results = nexosis_client.models.predict(model_id, features)
 
     # since we only asked for one prediction, we only get one back
-    prediciton = results.data[0]
+    prediction = results.data[0]
 
     # map the prediction to something a little more front-end friendly
     classination = {
