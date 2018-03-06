@@ -1,4 +1,4 @@
-var classinateUrl = 'https://ejitn71uqd.execute-api.us-east-1.amazonaws.com/prod/bigfootClassinator'
+var classinateUrl = 'https://c362z2xd8d.execute-api.us-east-1.amazonaws.com/prod/bigfootClassinator'
 
 var classMap = {
     'class a': "You saw bigfoot! That's a Class A sighting.",
