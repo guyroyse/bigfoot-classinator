@@ -7,11 +7,10 @@
 
         <header>
             <h1 class="title">Bigfoot Classinator</h1>
-            <p class="tagline">Classinating All the Biggest Bigfeet</p>
         </header>
 
-        <main>
-            <section id="app">
+        <main id="app">
+            <section>
 
                 <h1>Classes of Bigfoot Sightings</h1>
 
@@ -32,10 +31,13 @@
 
                 <button v-on:click="classinate">Classinate My Sighting!</button>
 
+                <p class="result">{{ classination }}</p>
+
             </section>
 
             <aside>
                 <img src="sasquatch-face.jpg">
+                <p class="result">{{ classination }}</p>
             </aside>
 
         </main>
