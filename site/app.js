@@ -18,11 +18,12 @@ var app = new Vue({
     methods: {
         classinate: function() {
             this.classination = waitMessage;
-            this.$http.post(classinateUrl, { reportText: this.report })
+            axios.post(classinateUrl, { reportText: this.report })
                 .then(response => {
-                    var reportClass = response.body.reportClass;
+                    var reportClass = response.data.reportClass;
                     this.classination = classMessages[reportClass];
-                }, error => {
+                })
+                .catch(error => {
                     console.log(error);
                     this.classination = errorMessage;
                 });
