@@ -1,13 +1,13 @@
-var classinateUrl = 'https://rccptdhzsa.execute-api.us-east-1.amazonaws.com/prod/bigfootClassinator';
+const classinateUrl = 'https://rccptdhzsa.execute-api.us-east-1.amazonaws.com/prod/bigfootClassinator';
 
-var classMessages = {
+const classMessages = {
     'class a': "You saw bigfoot! That's a Class A sighting.",
     'class b': "You found some evidence of bigfoot like a footprint! That's a Class B sighting.",
     'class c': "Someone told you about seeing bigfoot! That's a Class C sighting"
 };
 
-var waitMessage = "Analyzing your sighting...";
-var errorMessage = "There was an error processing your classination.";
+const waitMessage = "Analyzing your sighting...";
+const errorMessage = "There was an error processing your classination.";
 
 var app = new Vue({
     el: '#app',
